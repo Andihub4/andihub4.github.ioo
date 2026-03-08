@@ -1,0 +1,128 @@
+.top_title {
+  background-color: rgb(6, 13,35);
+  color: white;
+  font-family: Papyrus, fantasy;
+}
+  .scrollable-div {
+    
+   /* padding: 40px;
+      width: 400px;
+      color: white;
+      font-size: 18px;
+      border-radius: 15px;
+*/
+    background: rgba(255, 255, 255, 0);
+    border: 0.8px solid rgba(255, 255, 255, 0);
+    
+    width: 100%;          
+    max-height: 92vh;          
+    padding: 10px;
+    text-align: center;
+    overflow-y: auto;          
+
+  
+  }
+.menu {
+  display: flex;
+  width: 97%;
+  margin-left: 1.5%;
+  
+  background: rgba(255, 255, 255, 0.01);
+  
+}
+.title {
+  flex: 1 1 min(160px, 25%);
+  padding: clamp(0.6rem, 2vw, 1rem);
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: none;
+  background: rgb(6, 13, 35);
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+}
+.menuu {
+  display: flex;
+  width: 97%;
+  margin-left: 1.5%;
+  padding: clamp(1rem, 2vw, 1rem);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: rgb(6, 13,35);
+  
+}
+
+.return {
+  display: flex;
+  width: 97%;
+  margin-left: 1.5%;
+  padding: clamp(0rem, 0vw, 0rem);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: rgb(6, 13,35);
+}
+#gap {
+  color: rgb(6, 13, 35);
+}
+
+.menu-btn {
+  flex: 1 1 min(160px, 25%);
+  width: 15%;
+  height: 4vh;
+  padding: clamp(0.1rem, 2vw, 1rem);
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  border: 2px solid white;
+  border-radius: 250px;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(10px);
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+}
+.audio {
+  flex: 1 1 min(160px, 25%);
+  padding: clamp(6rem, 2vw, 1rem);
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  background-size: cover;   /* makes it cover the div */
+  background-position: center;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.video {
+  width: 95%;
+  height: 40vh;
+  max-width: 100%;
+  max-height: 40vh;
+}
+
+
+.popup{
+  position: fixed;
+  top: -70px;
+  left: 0;
+  width:100%;
+  height:100%;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  justify-content:center;
+  align-items:center;
+  z-index: 9999;
+}
+
+  
+
+.popup-box{
+  left: -40px;
+  background: rgb(6, 13, 35);
+  color: white;
+  border: 2px solid white;
+  padding:20px;
+  border-radius:8px;
+  text-align:center;
+}
