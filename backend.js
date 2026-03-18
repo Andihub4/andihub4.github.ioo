@@ -4,7 +4,7 @@ let step = 0;
 let validd = [];
 function show() {
   
-  let rid = Math.floor(Math.random() * 4);
+  let rid = Math.floor(Math.random() * supply );
   if (rid < supply) {
   if (!validd.includes(rid)) {
     
