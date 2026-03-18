@@ -1,4 +1,4 @@
-let supply = 4;
+let supply = 5;
 let step = 0;
 
 let validd = [];

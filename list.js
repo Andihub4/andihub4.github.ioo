@@ -1,4 +1,4 @@
-let total = 4;
+let total = 5;
 
 let i = 0;
 let valid = [];
@@ -11,7 +11,8 @@ if(!valid.includes(i)) {
      "Matthew 28:20",
      "Isaiah 6:1-3 ",
      "Revelation 11:15–19",
-     "Hebrews 13:5"
+     "Hebrews 13:5",
+     "Luke 5:8"
    ];
     
    
@@ -19,7 +20,8 @@ let  titles = [
   "Jesus walks with me...",
   "Holy holy holy...",
   "At last trumpet...",
-  "The promise still stands..."
+  "The promise still stands...",
+  "I'm not enough for this..."
   
   
 ];
